@@ -1,42 +1,12 @@
 import './Contact.scss'
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
-      <h1>Contact</h1>
+    <div className='contact padd-30'>
+      <div className='row'>
+        <div className='title'><h2>Contact me</h2></div>
+      </div>
+      <div></div>
+      <div></div>
     </div>
   )
 }

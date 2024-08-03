@@ -3,6 +3,8 @@ $main: #f2f2fc;
 $border: #e8dfec;
 $skincolor: #ec1839;
 $text-black-900: #302e4d;
+$text-balck-700: #504e70;
+$bg-black-50: #504e70;
 * {
   outline: none;
   text-decoration: none;
@@ -14,7 +16,7 @@ $text-black-900: #302e4d;
   min-height: 100vh;
 
   .aside {
-    width: 270px;
+    width: 250px;
     background: $aside;
     position: fixed;
     left: 0;
@@ -45,10 +47,10 @@ $text-black-900: #302e4d;
         &::before {
           content: '';
           position: absolute;
-          width: 20px;
-          height: 20px;
-          border-bottom: 5px solid $skincolor;
-          border-left: 5px solid $skincolor;
+          width: 10px;
+          height: 10px;
+          border-bottom: 2px solid $skincolor;
+          border-left: 2px solid $skincolor;
           bottom: 0;
           left: 0;
         }
@@ -56,28 +58,29 @@ $text-black-900: #302e4d;
         &::after {
           content: '';
           position: absolute;
-          width: 20px;
-          height: 20px;
+          width: 10px;
+          height: 10px;
           top: 0;
           right: 0;
-          border-top: 5px solid $skincolor;
-          border-right: 5px solid $skincolor;
+          border-top: 2px solid $skincolor;
+          border-right: 2px solid $skincolor;
         }
       }
     }
 
     ul{
       margin-top: 50px;
+      margin-right: 34px;
       li{
         margin-bottom: 20px;
         display: block;
         a{
           font-weight: 600;
           display: block;
-          border-bottom: 1px solid var(--bg-black-50);
-          color: var(--text-black-900);
           padding: 5px 15px;
-          &:active{
+          font-size: 14px;
+          color: $text-black-900;
+          &:focus{
             color: $skincolor;
           }
           .fa{
@@ -91,6 +94,6 @@ $text-black-900: #302e4d;
   .outlet {
     background: $main;
     flex: 1;
-    margin-left: 270px;
+    margin-left: 250px;
   }
 }
